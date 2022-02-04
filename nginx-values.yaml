@@ -1,0 +1,5 @@
+controller:
+  service:
+    loadBalancerIP: 20.121.185.64
+    annotations:
+      "service.beta.kubernetes.io/azure-load-balancer-resource-group": "k8srg"
