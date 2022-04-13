@@ -50,7 +50,6 @@ kind: Ingress
 metadata:
   name: service2-ingress
   annotations: 
-    kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
